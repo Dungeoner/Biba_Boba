@@ -10,7 +10,12 @@ namespace Serialization_Deserialization
     {
         static void Main(string[] args)
         {
-
+            var Ser = new Serialization();
+            Console.WriteLine("Array size:");
+            var path = Ser.BinarySerializer(Convert.ToInt32(Console.ReadLine()));
+            var Deser = new Deserialization();
+            OutputMessage.Messenger(Deser.BinaryDeserializer(path));
+            Console.ReadKey();
         }
     }
 }
