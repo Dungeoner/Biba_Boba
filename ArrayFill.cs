@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Serialization_Deserialization
-{
+{ 
     class ArrayFill
     {
         public static int[] Filling(int size)

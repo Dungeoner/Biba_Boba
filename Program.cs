@@ -10,7 +10,8 @@ namespace Serialization_Deserialization
     {
         static void Main(string[] args)
         {
-
+            SerializationArray.Array();
+            Console.ReadKey();
         }
     }
 }
